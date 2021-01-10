@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <style>
+     
+      .containerI {
+        position: relative;
+      }
+      .center {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      img {
+        width: 100%;
+        height: 250px;
+        opacity: 0.9;
+      }
+      .navbtn{
+        border: 1px solid #3498db;
+        background: none;
+        padding: 10px 20px;
+        font-size: 15px;
+        cursor: pointer;
+        margin: 10px;
+        position: relative;
+        overflow: hidden;
+      }
+      .btn1, .btn2{
+        color: #3498db;
+      }
+      .btn1:hover, .btn2:hover{
+        color: #FFFFFF;
+      }
+      body{
+          background: #fcfcfc;
+      }
+      .content {
+      max-width:90%;
+      margin: auto;
+      background-color: rgb(14, 32, 66)
+      }
+      </style>
+<div class="containerI">
+<img src="https://www.farukmedicalcity.com/wp-content/uploads/2019/02/Radiology.jpg" class="rounded mx-auto d-block"   >
+</div>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Doctors</title>
+    
+    <div class="container-fluid">
+
+    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+       
+          <div class="collapse navbar-collapse" id="navbarNav" >
+
+            <button class="navbtn btn2">patients</button>
+            <button class="navbtn btn2">schedule</button>
+
+          </div>
+          <a href="#" class="btn btn-outline-light" tabindex="-1" role="button" aria-disabled="true">log out</a>
+       </nav>
+  </head>
+  
+  <body class= "content">
+    <div class="position-relative m-5 text-white">
+      <h1>patients</h1><br>
+
+      <table class="table  table-dark">
+        <thead class="thead-light">
+          <tr>
+            <th scope="col"></th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">id</th>
+            <th scope="col">phone</th>
+            <th scope="col">email</th>
+            <th scope="col">scans</th>
+            <th scope="col">diagnosis</th>
+            <th scope="col" >treatment</th>
+
+  
+            <th scope="col">
+              <form class="form-inline">
+                <i class="fas fa-search" aria-hidden="true"></i>
+                <input class="form-control form-control-sm ml-3 w-75" type="text" placeholder="Search" aria-label="Search">
+               </form>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>1</td>
+          <td>hgkjgkjh</td>
+          <td>jgkhvkhv</td>
+          <td>nmbmnv</td>
+        <td><input type="text" class="form-control" placeholder="diagnosis"></td>
+        <td><input type="text" class="form-control" placeholder="treatment"></td>
+          <td><button type="submit" class="btn btn-dark">Send</button> </td>
+
+        </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+            <td>hgkjgkjh</td>
+            <td>jgkhvkhv</td>
+            <td>nmbmnv</td>
+            <td><input type="text" class="form-control" placeholder="diagnosis"></td>
+            <td><input type="text" class="form-control" placeholder="treatment"></td>
+            <td><button type="submit" class="btn btn-dark">send</button> </td>
+
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="2">Larry the Bird</td>
+            <td>@twitter</td>
+            <td>hgkjgkjh</td>
+            <td>jgkhvkhv</td>
+            <td>nmbmnv</td>
+            <td><input type="text" class="form-control" placeholder="diagnosis"></td>
+            <td><input type="text" class="form-control" placeholder="treatment"></td>
+            <td><button type="submit" class="btn btn-dark">send</button> </td>
+
+          </tr>
+        </tbody>
+      </table>
+
+
+
+    </div>
+  </body>
